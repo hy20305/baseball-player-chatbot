@@ -38,9 +38,13 @@
 ## 📂 프로젝트 구조
 
 baseball-player-chatbot/
-┣ src/
-┃ ┗ chatbot_ui_chat.py
-┣ requirements.txt
-┣ README.md
-┗ 한국프로야구선수정보챗봇_최종.pdf
+ ┣ src/
+ ┃ ┣ chatbot_ui_chat.py
+ ┃ ┣ player_profiles_1.csv
+ ┃ ┣ KBO_2025_player_stats_type.csv
+ ┃ ┣ team_instagram_1.csv
+ ┣ requirements.txt
+ ┣ README.md
+ ┗ 한국프로야구선수정보챗봇_최종.pdf
+
 
