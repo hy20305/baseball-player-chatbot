@@ -36,6 +36,9 @@
 - (사용한 UI가 있다면) Streamlit / 기타
 
 ## 실행 결과
+<details>
+<summary>실행 화면 전체 보기</summary>
+
 ![선수 프로필 조회](images/1.png)
 ![프로필 내 특정 항목 질문](images/2.png)
 ![구단 + 등번호 질문](images/3.png)
@@ -48,6 +51,8 @@
 ![자유 질의 응답](images/10.png)
 ![동명이인 처리](images/11.png)
 ![입력 오류 처리](images/12.png)
+
+</details>
 
 
 ## 프로젝트 구조
