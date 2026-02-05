@@ -19,12 +19,12 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # === CSV 경로 ===
-BASE_DIR = Path(__file__).parent
-PROFILES_CSV = BASE_DIR / "player_profiles_1.csv"
-STATS_CSV    = BASE_DIR / "KBO_2025_player_stats_type.csv"
-# STATS_2024_CSV = BASE_DIR / "KBO_2024.csv"
-# RECENT_CSV = BASE_DIR / "KBO_10.csv"
-TEAM_INSTA_CSV = BASE_DIR / "team_instagram_1.csv"
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / "data"
+PROFILES_CSV = DATA_DIR / "player_profiles_1.csv"
+STATS_CSV = DATA_DIR / "KBO_2025_player_stats_type.csv"
+TEAM_INSTA_CSV = DATA_DIR / "team_instagram_1.csv"
+
 
 profiles = pd.read_csv(PROFILES_CSV, dtype=str)
 stats    = pd.read_csv(STATS_CSV, dtype=str)
@@ -1116,4 +1116,5 @@ if user_input:
     st.session_state.chat_history.append({"role": "user", "content": user_input})
     bot_msg = generate_answer(user_input)
     st.session_state.chat_history.append(bot_msg)
+
     st.rerun()
