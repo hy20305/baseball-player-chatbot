@@ -35,18 +35,42 @@
 - OpenAI API (성적 요약)
 - (사용한 UI가 있다면) Streamlit / 기타
 
-## 프로젝트 구조
+## 실행 결과
+![선수 프로필 조회](images/1.png)
+![프로필 내 특정 항목 질문](images/2.png)
+![구단 + 등번호 질문](images/3.png)
+![2025 성적 시즌 조회](images/4.png)
+![특정 지표 조회](images/5.png)
+![최근 경기 성적 조회](images/6.png)
+![AI 성적 요약1](images/7.png)
+![AI 성적 요약2](images/8.png)
+![인스타그램 및 최신 뉴스 조회](images/9.png)
+![자유 질의 응답](images/10.png)
+![동명이인 처리](images/11.png)
+![입력 오류 처리](images/12.png)
 
+
+## 프로젝트 구조
 baseball-player-chatbot/
  ┣ src/
  ┃ ┗ chatbot_ui_chat.py        
  ┣ data/                       
  ┃ ┣ player_profiles_1.csv
  ┃ ┣ KBO_2025_player_stats_type.csv
- ┃ ┣ team_instagram_1.csv
- ┃ ┗ KBO_10.csv
+ ┃ ┗ team_instagram_1.csv
  ┣ images/                     
- ┃ ┗ images.png
+ ┃ ┣ 1.png
+ ┃ ┣ 2.png
+ ┃ ┣ 3.png
+ ┃ ┣ 4.png
+ ┃ ┣ 5.png
+ ┃ ┣ 6.png
+ ┃ ┣ 7.png
+ ┃ ┣ 8.png
+ ┃ ┣ 9.png
+ ┃ ┣ 10.png
+ ┃ ┣ 11.png
+ ┃ ┗ 12.png
  ┣ requirements.txt
  ┣ README.md
  ┗ 한국프로야구선수정보챗봇_최종.pdf
