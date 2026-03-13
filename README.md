@@ -76,6 +76,7 @@ streamlit run src/chatbot_ui_chat.py
 
 
 ## 프로젝트 구조
+```text
 baseball-player-chatbot/
  ┣ src/
  ┃ ┗ chatbot_ui_chat.py        
